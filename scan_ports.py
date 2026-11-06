@@ -14,3 +14,4 @@ if __name__ == "__main__":
     if ip_valide(hote):
         for port in (22, 80, 443):
             print(port, "ouvert" if port_ouvert(hote, port) else "ferme")
+# Option future : --timeout en ligne de commande
