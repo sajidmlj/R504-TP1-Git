@@ -6,3 +6,6 @@ Mini-outil Python de verification reseau (TP1 R5.04, BUT R&T).
 - `scan_ports.py` : verifie si des ports TCP sont ouverts
 - `utils.py` : fonctions communes (validation d'adresse IP)
 - Ajout prevu : export des resultats en CSV
+
+## Utilisation
+python ping_hote.py 8.8.8.8
