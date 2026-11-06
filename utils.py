@@ -8,3 +8,5 @@ def ip_valide(adresse: str) -> bool:
         return True
     except ValueError:
         return False
+# TODO : gerer les plages d adresses
+# TODO : gerer IPv6 dans scan_ports
