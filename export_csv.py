@@ -7,3 +7,5 @@ def exporter(resultats: dict, chemin: str = "resultats.csv") -> None:
         ecrivain.writerow(["cible", "etat"])
         for cible, etat in resultats.items():
             ecrivain.writerow([cible, etat])
+
+# Exemple : exporter({"127.0.0.1": "ok"})
