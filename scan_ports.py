@@ -3,7 +3,7 @@ import socket
 from utils import ip_valide
 
 
-def port_ouvert(hote: str, port: int, delai: float = 0.5) -> bool:
+def port_ouvert(hote: str, port: int, delai: float = 1.0) -> bool:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.settimeout(delai)
         return s.connect_ex((hote, port)) == 0
